@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply antialiased;
+  }
+
+  /* Mudar a cor de fundo padrão para o dark mode */
+  .dark body {
+    background-color: #111827; /* fundo escuro */
+    color: white; /* texto branco */
+  }
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+@layer components {
+  .section-container {
+    @apply container mx-auto px-4 py-16 md:py-24;
+  }
+
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-8 text-center;
+  }
+
+  .section-subtitle {
+    @apply text-lg text-gray-600 dark:text-gray-400 mb-12 text-center max-w-2xl mx-auto;
+  }
+
+  /* Alterar cores de botões no Dark Mode */
+  .btn {
+    @apply text-white bg-blue-600 hover:bg-blue-700 dark:bg-blue-800 dark:hover:bg-blue-600;
+  }
+
+
+  /* Cor roxa mais escura para os textos */
+  .text-purple-600 {
+    color: #6b21a8; /* roxo claro */
+  }
+
+  .dark .text-purple-400 {
+    color: #9f7aea; /* roxo mais suave no dark mode */
+  }
+}
