@@ -18,7 +18,7 @@ const skillCategories = [
     ]
   },
   {
-    title: 'Automação',
+    title: 'Automação de Processos',
     skills: [
       { name: 'Arduino', level: 45 },  // Experiência prática com Arduino, o que é mais avançado
       { name: 'PLC', level: 70 },  // Experiência adquirida no SENAI, mas ainda em aprendizado
