@@ -22,7 +22,7 @@ const skillCategories = [
     skills: [
       { name: 'Arduino', level: 45 },  // Experiência prática com Arduino, o que é mais avançado
       { name: 'PLC', level: 70 },  // Experiência adquirida no SENAI, mas ainda em aprendizado
-      { name: 'BI com Python', level: 65 },  // Experiência com automação, mas aprendendo mais
+      { name: 'Análise de Dados com Python', level: 65 },  // Experiência com automação, mas aprendendo mais
     ]
   }
 ];
