@@ -85,7 +85,7 @@ const Skills = () => {
                   <div className="flex items-center justify-between mb-1">
                     <div className="flex items-center space-x-2">
                       {skill.icon && (
-                        <span className="text-2xl text-blue-500">{skill.icon}</span>
+                        <span className="text-2xl text-blue-500 dark:text-purple-500">{skill.icon}</span>
                       )}
                       <span className="text-gray-700 dark:text-gray-300 text-lg font-medium">
                         {skill.name}
