@@ -8,7 +8,7 @@ const Hero = () => {
   <div className="absolute inset-0 z-0 overflow-hidden">
     <div className="absolute inset-0 bg-black opacity-70 dark:bg-gray-900 dark:opacity-80"></div>
     <img
-      src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZ3JhbWElQzMlQTclQzMlQTNvfGVufDB8fDB8fHww"
+      src="https://images.unsplash.com/photo-1517134191118-9d595e4c8c2b?auto=format&fit=crop&q=80"
       alt="Plano de Fundo"
       className="w-full h-full object-cover transform scale-110 brightness-75"
     />
