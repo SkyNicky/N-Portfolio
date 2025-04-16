@@ -8,7 +8,7 @@ const Hero = () => {
   <div className="absolute inset-0 z-0 overflow-hidden">
     <div className="absolute inset-0 bg-black opacity-70 dark:bg-gray-900 dark:opacity-80"></div>
     <img
-      src="https://images.unsplash.com/photo-1517134191118-9d595e4c8c2b?auto=format&fit=crop&q=80"
+      src="https://wallpapers.com/images/hd/binary-code-number-system-x3r5s7qqa1a20nyl.jpg"
       alt="Plano de Fundo"
       className="w-full h-full object-cover transform scale-110 brightness-75"
     />
