@@ -32,7 +32,7 @@ const Hero = () => {
           </motion.h1>
 
           <motion.p
-            className="text-xl md:text-2xl text-grey-400 mt-6 leading-relaxed"
+            className="text-xl md:text-2xl text-grey-100 mt-6 leading-relaxed"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.4, delay: 0.5 }}
